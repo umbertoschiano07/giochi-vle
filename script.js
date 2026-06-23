@@ -2,12 +2,12 @@
 // Ogni gioco: { ora: "HH:MM", nome: "..." } — l'orario vuoto ("") va in fondo.
 const EVENTI = [
   { data: "4 luglio",  giorno: "sabato",          luogo: "Comune",             giochi: [{ ora: "18:00", nome: "Wallpainting" }] },
-  { data: "9 luglio",  giorno: "giovedì",         luogo: "Parco Benessere",    giochi: [{ ora: "18:00", nome: "Primo turno Calcio e Basket" }] },
+  { data: "9 luglio",  giorno: "giovedì",         luogo: "Parco del Benessere",giochi: [{ ora: "18:00", nome: "Primo turno Calcio e Basket" }] },
   { data: "11 luglio", giorno: "sabato mattina",  luogo: "Acquamorta",         giochi: [{ ora: "09:00", nome: "Passami l'acqua" }, { ora: "09:00", nome: "Incendio" }, { ora: "09:00", nome: "Ciambell Cor a Cor" }] },
-  { data: "14 luglio", giorno: "martedì",         luogo: "P.za S. Giuseppe",   giochi: [{ ora: "21:00", nome: "Patata Bollente" }, { ora: "21:00", nome: "Sul filo del mattone" }] },
+  { data: "14 luglio", giorno: "martedì",         luogo: "P.zza S. Giuseppe",  giochi: [{ ora: "21:00", nome: "Patata Bollente" }, { ora: "21:00", nome: "Sul filo del mattone" }] },
   { data: "15 luglio", giorno: "mercoledì",       luogo: "Parco del Benessere",giochi: [{ ora: "18:00", nome: "Semifinali e Finali Calcio" }] },
   { data: "16 luglio", giorno: "giovedì",         luogo: "Parco del Benessere",giochi: [{ ora: "18:00", nome: "Semifinali e Finali Basket" }] },
-  { data: "18 luglio", giorno: "sabato",          luogo: "P.za XXVII Gennaio", giochi: [{ ora: "18:00", nome: "Parata" }, { ora: "21:00", nome: "Tiro alla fune" }, { ora: "21:00", nome: "Nu jeans e na maglietta" }] },
+  { data: "18 luglio", giorno: "sabato",          luogo: "P.zza XXVII Gennaio",giochi: [{ ora: "18:00", nome: "Parata" }, { ora: "21:00", nome: "Tiro alla fune" }, { ora: "21:00", nome: "Nu jeans e na maglietta" }] },
   { data: "20 luglio", giorno: "lunedì",          luogo: "Acquamorta",         giochi: [{ ora: "17:00", nome: "Qua Qua Game" }, { ora: "09:00", nome: "Beach volley" }, { ora: "09:00", nome: "SUP" }] },
   { data: "22 luglio", giorno: "mercoledì",       luogo: "Acquamorta",         giochi: [{ ora: "21:00", nome: "Voci x caso" }, { ora: "21:00", nome: "Tiro alla fune" }, { ora: "21:00", nome: "Gara di t-shirts" }] },
   { data: "23 luglio", giorno: "giovedì",         luogo: "Acquamorta",         giochi: [{ ora: "21:00", nome: "Buona la Prima" }, { ora: "21:00", nome: "Body art" }] },
