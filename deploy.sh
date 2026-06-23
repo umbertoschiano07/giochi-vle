@@ -31,7 +31,7 @@ echo "⏳ Build avviata, attendo il completamento..."
 
 # 4) Attendi che la build sia 'built' sul commit appena pushato
 SHA="$(git rev-parse HEAD)"
-for i in $(seq 1 20); do
+for i in $(seq 1 36); do
   read -r STATUS BUILT_SHA < <(gh api "repos/$REPO/pages/builds/latest" --jq '.status+" "+.commit' 2>/dev/null || echo "unknown ")
   if [[ "$STATUS" == "built" && "$BUILT_SHA" == "$SHA" ]]; then
     echo "✅ Sito pubblicato: $URL"
