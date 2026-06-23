@@ -38,7 +38,7 @@ function renderEventi(filtro = "all") {
     el.className = "event";
     el.style.transitionDelay = `${i * 60}ms`;
     el.innerHTML = `
-      <span class="event-dot"><svg><use href="#i-skull"/></svg></span>
+      <span class="event-dot"><img src="assets/logo1.png" alt="" /></span>
       <div class="event-card parchment">
         <div class="event-head">
           <span class="event-date">${e.data}</span>
