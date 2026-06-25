@@ -450,13 +450,13 @@ main, .hero, .footer, .sponsors { position: relative; z-index: 1; }
 .socials { display: inline-flex; gap: 1rem; margin: 0.4rem 0 1rem; }
 .social {
   display: inline-flex; align-items: center; justify-content: center;
-  width: 44px; height: 44px; border-radius: 50%;
+  width: 36px; height: 36px; border-radius: 50%;
   color: #0c1a33; background: var(--gold-soft, #e9c46a);
   box-shadow: 0 6px 14px rgba(0,0,0,.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .social:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,.5); }
-.social svg { width: 24px; height: 24px; }
+.social svg { width: 20px; height: 20px; }
 
 /* patrocinio */
 .patronage {
@@ -465,7 +465,7 @@ main, .hero, .footer, .sponsors { position: relative; z-index: 1; }
   border-top: 1px solid rgba(233,196,106,.3);
 }
 .patronage-label { font-family: "Cinzel", serif; letter-spacing: 1px; font-size: 0.8rem; opacity: 0.8; }
-.patronage-logo { width: 90px; height: auto; filter: drop-shadow(0 6px 12px rgba(0,0,0,.45)); }
+.patronage-logo { width: 64px; height: auto; filter: drop-shadow(0 6px 12px rgba(0,0,0,.45)); }
 .patronage-name { font-family: "Cinzel", serif; letter-spacing: 1px; font-size: 0.9rem; }
 
 /* ===== REVEAL ANIMATION ===== */
